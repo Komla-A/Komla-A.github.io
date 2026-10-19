@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Komla Amega | Official Website</title>
+
+  <meta name="description"
+        content="Welcome to the official website of Komla Amega. Discover my profile, work, and projects.">
+
+  <style>
+    :root {
+      --primary: #0f766e;
+      --dark: #102a2a;
+      --light: #f4f8f7;
+      --white: #ffffff;
+      --text: #344746;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--light);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--white);
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .logo {
+      color: var(--primary);
+      font-size: 1.4rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    nav {
+      display: flex;
+      gap: 22px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--dark);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    .hero {
+      min-height: 78vh;
+      display: flex;
+      align-items: center;
+      padding: 80px 8%;
+      background: linear-gradient(135deg, #e0f2ef, #f4f8f7);
+    }
+
+    .hero-content {
+      max-width: 760px;
+    }
+
+    .eyebrow {
+      color: var(--primary);
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 0.85rem;
+    }
+
+    h1 {
+      color: var(--dark);
+      font-size: clamp(2.7rem, 7vw, 5rem);
+      line-height: 1.1;
+      margin: 18px 0;
+    }
+
+    .hero p {
+      font-size: 1.15rem;
+      max-width: 620px;
+      margin-bottom: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--primary);
+      color: var(--white);
+      padding: 13px 25px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+
+    .button:hover {
+      background: #115e59;
+    }
+
+    section {
+      padding: 75px 8%;
+      scroll-margin-top: 20px;
+    }
+
+    .section-title {
+      color: var(--dark);
+      font-size: 2.1rem;
+      margin-bottom: 15px;
+    }
+
+    .section-intro {
+      max-width: 700px;
+      margin-bottom: 30px;
+    }
+
+    .about {
+      background: var(--white);
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: var(--white);
+      padding: 28px;
+      border-radius: 12px;
+      border: 1px solid #e1eae7;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+    }
+
+    .card h3 {
+      color: var(--primary);
+      margin-bottom: 12px;
+    }
+
+    .contact {
+      background: var(--dark);
+      color: var(--white);
+      text-align: center;
+    }
+
+    .contact .section-title {
+      color: var(--white);
+    }
+
+    .contact p {
+      max-width: 600px;
+      margin: 0 auto 25px;
+    }
+
+    .contact .button {
+      background: var(--white);
+      color: var(--dark);
+    }
+
+    footer {
+      background: #091c1c;
+      color: #d2e0dd;
+      padding: 25px 8%;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 18px 5%;
+      }
+
+      nav {
+        gap: 13px;
+      }
+
+      .hero {
+        padding: 65px 6%;
+        min-height: 65vh;
+      }
+
+      section {
+        padding: 55px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a href="#home" class="logo">Komla Amega</a>
+
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">Welcome to my official website</span>
+
+        <h1>Hello, I'm Komla Amega.</h1>
+
+        <p>
+          Welcome to my online space. Discover my story, explore my work,
+          and connect with me for future opportunities and collaborations.
+        </p>
+
+        <a class="button" href="#about">Discover More</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="section-title">About Komla Amega</h2>
+
+      <p class="section-intro">
+        I believe in growth, creativity, and making a positive impact.
+        This website is where you can learn more about me, my interests,
+        my goals, and the work I do.
+      </p>
+
+      <p>
+        My journey is built on learning, dedication, and a commitment
+        to creating meaningful opportunities. Stay connected to discover
+        more about my activities and future projects.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2 class="section-title">My Work & Interests</h2>
+
+      <p class="section-intro">
+        Explore the areas I focus on and the opportunities I'm working toward.
+        Replace these examples with your actual activities.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>My Projects</h3>
+          <p>
+            Discover projects, ideas, and initiatives that reflect my
+            interests, experience, and ambitions.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Professional Growth</h3>
+          <p>
+            Learn about my skills, experience, achievements, and
+            commitment to continuous development.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Collaboration</h3>
+          <p>
+            I'm interested in connecting with people, sharing ideas,
+            and exploring meaningful opportunities.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Let's Connect</h2>
+
+      <p>
+        Have a question, an idea, or an opportunity to discuss?
+        I'd be happy to hear from you.
+      </p>
+
+      <!-- Replace this email address with your real email. -->
+      <a class="button"
+         href="mailto:your-email@example.com">
+        Contact Me
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; <span id="year"></span> Komla Amega.
+      All rights reserved.
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+
+</body>
+</html>
