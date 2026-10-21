@@ -277,6 +277,27 @@
       <p>
         Stay connected to discover more about my activities and future projects.
       </p>
+
+      
+<button id="emailButton" onclick="revealEmail()">
+  Show email
+</button>
+
+<script>
+  function revealEmail() {
+    const email = "amega010@gmail.com";
+    const button = document.getElementById("emailButton");
+
+    button.textContent = email;
+    button.onclick = () => {
+      window.location.href = "mailto:" + email;
+    };
+  }
+</script>
+
+
+
+      
     </section>
 
     <section id="services">
