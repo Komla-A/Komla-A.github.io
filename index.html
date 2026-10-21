@@ -251,25 +251,6 @@
           and connect with me for future opportunities and collaborations.
         </p>
 
-              
-      
-<button id="emailButton" onclick="revealEmail()">
-  Show email
-</button>
-
-<script>
-  function revealEmail() {
-    const email = "amega010@gmail.com";
-    const button = document.getElementById("emailButton");
-
-    button.textContent = email;
-    button.onclick = () => {
-      window.location.href = "mailto:" + email;
-    };
-  }
-</script>
-
-
         
         <a class="button" href="#about">Discover More</a>
       </div>
@@ -299,7 +280,22 @@
       </p>
 
 
+   
+<button id="emailButton" onclick="revealEmail()">
+  Show email
+</button>
 
+<script>
+  function revealEmail() {
+    const email = "amega010@gmail.com";
+    const button = document.getElementById("emailButton");
+
+    button.textContent = email;
+    button.onclick = () => {
+      window.location.href = "mailto:" + email;
+    };
+  }
+</script>
       
     </section>
 
